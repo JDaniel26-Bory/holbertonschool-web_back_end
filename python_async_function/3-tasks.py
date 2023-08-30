@@ -2,10 +2,9 @@
 """Async basics"""
 from asyncio import Task, create_task
 wait_random = __import__('0-basic_async_syntax').wait_random
-"""Function that return a task"""
 
 
 def task_wait_random(max_delay: int) -> Task:
-    """Task"""
+    """Function that return a task"""
     t = create_task(wait_random(max_delay))
     return t
