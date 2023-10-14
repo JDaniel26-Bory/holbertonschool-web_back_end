@@ -7,7 +7,7 @@ function getResponseFromAPI() {
         reject();
     }
   /* eslint-enable */
-});
+  });
 }
 
 export default getResponseFromAPI;
