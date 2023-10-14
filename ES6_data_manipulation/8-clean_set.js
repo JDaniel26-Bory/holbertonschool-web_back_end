@@ -7,10 +7,10 @@ function cleanSet(set, startString) {
   ) {
     return '';
   }
-  
+
   for (const item of set) {
     if (item && item.startsWith(startString)) {
-    string.push(item.slice(startString.length));
+      string.push(item.slice(startString.length));
     }
   }
   return string.join('-');
