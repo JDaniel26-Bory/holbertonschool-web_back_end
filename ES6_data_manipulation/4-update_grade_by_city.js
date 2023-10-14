@@ -14,7 +14,7 @@ function updateStudentGradeByCity(students, city, newGrades) {
     let grade;
     if (gradeFilter[0]) {
       grade = gradeFilter[0].grade;
-      } else {
+    } else {
       grade = 'N/A';
     }
     return {
