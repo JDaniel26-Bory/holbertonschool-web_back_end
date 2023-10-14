@@ -10,7 +10,6 @@ function updateStudentGradeByCity(students, city, newGrades) {
     const gradeFilter = newGrades.filter(
       (newGrade) => newGrade.studentId === student.id,
     );
-  
     let grade;
     if (gradeFilter[0]) {
       grade = gradeFilter[0].grade;
